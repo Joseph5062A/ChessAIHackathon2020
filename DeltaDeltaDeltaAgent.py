@@ -124,7 +124,7 @@ class DeltaDeltaDeltaAgent:
       """
         heuristics = {}
         heuristics["exchange_heuristic"] = [1, 5, 5]  # Early, Mid, Late Game
-        heuristics["pawn_advancment_heuristic"] = [2, 1, 2]  # Early, Mid, Late Game
+        heuristics["pawn_advancment_heuristic"] = [0.2, 0.1, 0.2]  # Early, Mid, Late Game
         heuristics["piece_development_heuristic"] = [1, 0, 0]  # Early, Mid, Late Game
         heuristics["opposing_king"] = [1, 10, 20]
         heuristics["game_utility"] = [5, 5, 6]  # Early, Mid, Late Game
